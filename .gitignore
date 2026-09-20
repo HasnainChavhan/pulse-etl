@@ -1,9 +1,7 @@
 __pycache__/
 *.pyc
 .env
-.venv/
-venv/
-*.egg-info/
-reports/
-codelens_output/
-.codelens_cache.json
+logs/
+airflow-webserver.pid
+dbt_packages/
+target/
