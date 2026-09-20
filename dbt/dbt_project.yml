@@ -1,0 +1,11 @@
+name: 'pulse_etl'
+version: '1.0.0'
+config-version: 2
+profile: 'pulse_etl'
+model-paths: ["models"]
+models:
+  pulse_etl:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
